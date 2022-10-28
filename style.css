@@ -1,0 +1,93 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    background: radial-gradient( rgba(0,0,234,0.4), rgba(220,0,234,0.4));
+    color: rgb(62, 9, 105);
+}
+h1, p {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 8px;
+    margin:5px auto 15px;
+}
+h1 {
+    font-size: 2rem;
+}
+.container {
+    width: 50vw;
+    margin:100px auto;
+    padding: 40px;
+    background: #dadafa;
+    box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+}
+input[type='text'], 
+input[type='email'],
+input[type='password'],
+input[type='tel'],
+input[type='date'],
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px;
+    display: block;
+    border: none;
+    border-radius: 30px;
+    background: #f5f5f5;
+}
+input[type='text']:focus , 
+input[type='email']:focus ,
+input[type='password']:focus ,
+input[type='tel']:focus ,
+input[type='date']:focus ,
+form textarea:focus  {
+    background: rgb(211, 156, 255);
+    outline: none;
+}
+input[type='color'] {
+    display: inline;
+    width: 20%;
+    margin: 0px auto 15px;
+    border: none;
+    border-radius: 30px;
+}
+/* input[type='checkbox'] {
+    display: inline-block;
+    
+} */
+.reg {
+    background:  radial-gradient( rgba(0,0,234,0.4), rgba(220,0,234,0.4));
+    color: #ffffff;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    margin: auto;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.reg:hover {
+    opacity: 1;
+}
+label {
+    padding-left: 10px;
+    font-weight: 600;
+}
+@media (max-width: 1100px) {
+    .container {
+        width: 85%;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 85%;
+    }
+}
